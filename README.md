@@ -40,8 +40,8 @@ Note: Both README and Wiki pages are writen using Markdown syntax.
 
 ### Quickstart
 
-Watch Beethduino in action, and learn to use it in this simple, short, cut-to-the-chase video!
-[!(https://img.youtube.com/vi/https://youtu.be/TdTyggPhVdc/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/TdTyggPhVdc)
+Watch Beethduino in action, and learn to use it in this simple, short, cut-to-the-chase video.
+[![Beethduino Tutorial](http://img.youtube.com/vi/TdTyggPhVdc/0.jpg)](http://www.youtube.com/watch?v=TdTyggPhVdc)
 
 Summary:
 - LCD show all the information: BPM value, mode, and if Buzzer is muted or not.
