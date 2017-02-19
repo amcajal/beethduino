@@ -3,7 +3,7 @@
 ### Overview
 
 **Beethduino** (pun intended between Beethoven and Arduino) is a simple, Do-It-Yourself, Arduino-based electronic metronome. Let there be Rhythm!
-![beethduino_device.png](https://github.com/amcajal/beethduino/blob/master/software/5_support/beethduino_device.png)
+![beethduino_device.png](https://github.com/amcajal/beethduino/blob/master/Software/5_Support/beethduino_final_product.png)
 
 ### Index
 1. [Project Content](#project-content)
