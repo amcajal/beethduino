@@ -1,0 +1,18 @@
+COMPONENTS
+===========
+
+LIST OF COMPONENTS USED IN THE PROTOYPE (MAY DIFFER FROM THE ONES USED IN A FINAL PRODUCT):
+
+    - 1 * Sunfounder UNO R3 Board (or a compatible Arduino Board).
+    - 1 * USB data cable.
+    - 1 * Breadboard.
+    - 1 * Active Buzzer.
+    - 1 * LCD - LCD1602.
+    - 1 * Potentiometer 50 kOhm (Only used in Protoype to adjust LCD).
+    - 5 * Resistor 10 kOhm.
+    - 5 * Button.
+    - Several jumper wires (30 min. in the proposed arrangement).
+
+To build final product, include Power Plug-in or Battery, together with
+custom plastic case to protect the components. Recommended to turn
+the prototype into a PCB, to minimize size and material.

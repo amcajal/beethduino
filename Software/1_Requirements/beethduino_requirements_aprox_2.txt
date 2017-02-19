@@ -1,0 +1,33 @@
+|ID | Description |
+| ------------ | :------------ |
+|| The system shall implement the functionality of a metronome. |
+|| The system shall be based on Arduino technology. |
+|| The system shall be built in a Sunfounder UNO board. |
+|| The system shall be composed by the following electronic components: XXXX |.
+|| The system shall work at 50 MHz. |
+|| The system shall be started in its initial state. |
+|| The system shall establish as initial state the following configuration: BPM = 60; Buzzer = Muted; Mode = Add; |
+|| The system shall allow the user to increase the number of BPM. |
+|| The system shall allow the user to decrease the number of BPM. |
+|| The system shall establish the following limits to the BPM value: UPPER LIMIT = 300; LOWER LIMIT = 1; |
+|| The system shall allow the user to mute the buzzer. |
+|| The system shall allow the user to unmute the buzzer. |
+|| The system shall allow the user to restore the metronome to its initial state.|
+|| The system shall manage the Buzzer through the BUZZER_button. |
+|| The system shall manage the BPM value through the following buttons: ADD_OR_SUB_button, MODIFY_BY_1_button, MODIFY_BY_10_button. |
+|| The system shall manage its initial state through the RESTART_button. |
+|| The system shall perform in EACH iteration the following operations: check if ANY button has been pressed AND process the bpm frequency. |
+|| The system shall check ONE by ONE all buttons in order to detect a pulsation of any of them. |
+|| The system shall establish as button pulsation the next circumstnace: a button IS PRESSED, and then, RELEASE. |
+|| The system shall execute operations DEPENDS ON the button that has been pulsed. |
+|| The system shall update the LCD each time a button is pulsed. |
+|| The Buzzer shall transit between the following states: Muted, Unmuted. |
+|| The Buzzer shall work following the next logic: IF state = Muted THEN no sounds are generated; IF state = Unmuted THEN sounds are generated. |
+|| The Buzzer shall generate sounds with a duration of SOUND_DURATION. |
+|| The Buzzer shall establish SOUND_DURATION as 25 milliseconds. |
+|| The LCD shall print text containing the state of the system. |
+|| The LCD shall print strings with a maximum of 16 characters to fit the size of the display. |
+|| The LCD shall control row 1 (upper row) and row 2 (lower row) independently. |
+|| The LCD shall print in the row 1 (upper row) the following text: IF Buzzer = Muted THEN print "MUTE_MUTE_MUTE_"; IF Buzzer = Unmuted THEN print "". |
+|| The LCD shall print in the row 2 (lower row) the following text: IF Mode = ADD THEN print "ADD BPM: <BPM>"; IF Mode = SUB THEN print "SUB BPM: <BPM>"; |
+|| The LCD shall update both text of row 1 and row 2 each time a button is pressed. |

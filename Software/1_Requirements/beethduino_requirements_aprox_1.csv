@@ -1,0 +1,62 @@
+REQ_ID;REQ_TEXT;
+1;Beethduino shall reproduce the behaviour of a metronome, by generating signals -accoustic or visual- at a specific rate, in order to keep a constant pulse to execute a musical piece.;
+2;Beethduino shall be based on Arduino technology.;
+3;Beethduino shall produce sound signals that represents the constant pulse.;
+4;"Beethduino shall work with the Beats Per Minute concept: number of sonoric signals -""bips""- produced in a minute-60 seconds-. ";
+5;Beethduino shall turn on when connected to a power supply, and turn off when disconnected from the power supply.;
+6;"Beethduino shall turn on in the following initial state:
+- Buzzer state: Muted.
+- BPM value: 60";
+7;Beethduino shall allow the user to mute or unmute the Buzzer.;
+8;Beethduino shall generate sounds WHEN the buzzer is unmutted AND stay silent WHEN the buzzer is muted.;
+9;Beethduino shall allow the user to specify the BPM -beats per minute-.;
+10;"Beethduino shall establish the following boundaries to the BPM value:
+- Upper Level: 300 BPM.
+- Lower level: 1 BPM.";
+11;Beethduino shall generate sounds -from the buzzer- at the frequency established by the BPM number.;
+12;"Beethduino shall provide constant feedback of the state if the system, regards to:
+- Current BPM value.
+- Current Buzzer state.";
+13;Beethduino shall allow the user to restart the system to its initial state.;
+14;"Beethduino shall interface with the user using the following components:
+- Buzzer: sound signals.
+- LCD: textual information.
+- Buttons: execution of operations.";
+15;"Beethduino shall print in the LCD, as plain text, information about the state of the system:
+- Current BPM value.
+- Current Buzzer state.";
+16;Beethduino shall detect button pulsations from the user AND execute the required operation.;
+17;"Beethduino shall turn on in the following initial state:
+- Buzzer state: Muted
+- BPM: 60
+- Modify mode: ADD";
+18;"Beehtduino shall operate the BPM in the following modes -Modify Modes-:
+- ADD: BPM number is increased.
+- SUB: BPM number is decreased.";
+19;"Beethduino shall modify the BPM value using ONLY the following fixed amounts:
+- 1 unit
+- 10 units";
+20;"Beethduino shall modify the BPM value following this logic:
+- IF (Modify mode == ADD) THEN
+    - Increase BPM value
+- ELSE IF (Modify mode == SUB) THEN
+    - Decrease BPM value";
+21;"Beethduino shall increase the BPM value following this logic:
+- IF Modify mode == ADD THEN
+    - IF selected amount == 1 unit THEN
+        BPM = BPM + 1
+    - ELSE IF selected amount == 10 THEN
+        BPM = BPM + 10";
+22;"Beethduino shall show the current state of the system, regarding to:
+- Buzzer state: Muted or Unmutted.
+- BPM: current beats per minute at which the buzzer generates sound.
+- Modify mode: ADD or SUB";
+23;Beethduino shall detect user actions through buttons.;
+24;Beethduino shall be composed by the components specified in the LIST_OF_MATERIALS.txt;
+;;
+;;
+;;
+;;
+;;
+;;
+;;
