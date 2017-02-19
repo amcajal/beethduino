@@ -16,12 +16,13 @@
 
 ### Project Content
 
-####*Master Branch*: Contains all files required to built Beethduino -source code, schematics, diagrams-.
+*Master Branch*: Contains all files required to built Beethduino -source code, schematics, diagrams-.
 - **Software Folder**: Contains the *Software Development Life Cycle* deliverables.
 	- 1_Requirements: CSV files with User, System, Subsystem, High Level and Low Level Requirements.
 	- 2_Design: UML -activity- diagrams of Beethduino functions. Saved in XML files, intended to be opened with [draw.io](https://www.draw.io/), a free online diagram software.
 	- 3_Implementation: Arduino C/C++ subset Source Code of Beethduino. One single file.
 	- 4_Testing: C++ Beethduino library (for testing purposes), as well as Component test, Unit test and Integration test folders, with test codes for each section (in Arduino C/C++ subset too).
+                 Includes an XML file with the **Beethduino** call-graph, with the priority of each function depicted (risk assesment), used to define the test cases. Opened with draw.io tool too.
 	- 5_Support: Miscellaneous resources -as images- used both in this README and in the [Wiki](https://github.com/amcajal/beethduino/wiki).
 - **Hardware Folder**: Contains component-level-physical- specifications.
 	- List of materials: txt file with list of electronic devices used in Beethduino.
