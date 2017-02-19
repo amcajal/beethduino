@@ -1,4 +1,4 @@
-![beethduino_logo](https://github.com/amcajal/beethduino/blob/master/software/5_support/readme_beethduino_logo.png)
+![beethduino_logo](https://github.com/amcajal/beethduino/blob/master/Software/5_Support/beethduino_readme_logo.png)
 
 ### Overview
 
